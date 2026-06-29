@@ -1,11 +1,99 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>aYoo Tools</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>aYoo Tools - Free writing, coding, and SEO tools</title>
+    <meta name="description" content="Simple free tools for writing, coding, SEO, and everyday web tasks. Count words, format JSON, create slugs, generate passwords, and more.">
+    <link rel="canonical" href="https://ayoo.com/">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
   </head>
   <body>
-    <h1>aYoo Tools</h1>
-    <p>Simple free tools for writing, coding, SEO, and everyday web tasks.</p>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="aYoo Tools home">
+        <img src="/assets/ayoo-mark.svg" alt="" width="36" height="36">
+        <span>aYoo Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/tools/">Tools</a>
+        <a href="/guides/">Guides</a>
+        <a href="/about/">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Free browser tools</p>
+          <h1>Useful web tools that stay simple.</h1>
+          <p class="hero-text">aYoo Tools helps you handle small writing, coding, SEO, and everyday web tasks without signups, dashboards, or clutter.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="/tools/">Browse tools</a>
+            <a class="button secondary" href="/tools/word-counter/">Try word counter</a>
+          </div>
+        </div>
+        <div class="tool-preview" aria-label="Example aYoo Tools panel">
+          <div class="preview-toolbar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="preview-lines">
+            <div class="preview-row strong"></div>
+            <div class="preview-row"></div>
+            <div class="preview-row short"></div>
+          </div>
+          <div class="preview-grid">
+            <div><b>428</b><span>words</span></div>
+            <div><b>2m</b><span>read</span></div>
+            <div><b>SEO</b><span>ready</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Start here</p>
+          <h2>Popular tools</h2>
+        </div>
+        <div class="card-grid">
+          <a class="tool-card" href="/tools/word-counter/">
+            <span class="tool-icon">W</span>
+            <h3>Word Counter</h3>
+            <p>Count words, characters, sentences, and estimated reading time.</p>
+          </a>
+          <a class="tool-card" href="/tools/json-formatter/">
+            <span class="tool-icon">J</span>
+            <h3>JSON Formatter</h3>
+            <p>Format, validate, and inspect JSON in your browser.</p>
+          </a>
+          <a class="tool-card" href="/tools/slug-generator/">
+            <span class="tool-icon">S</span>
+            <h3>Slug Generator</h3>
+            <p>Turn titles into clean URL slugs for posts and pages.</p>
+          </a>
+          <a class="tool-card" href="/tools/password-generator/">
+            <span class="tool-icon">P</span>
+            <h3>Password Generator</h3>
+            <p>Create strong passwords with practical length and character options.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section split-section">
+        <div>
+          <p class="eyebrow">Built for small tasks</p>
+          <h2>Fast pages, clear answers, no account required.</h2>
+        </div>
+        <p>Each tool is designed around one practical job. The pages include short explanations and examples so visitors can understand the result instead of just pressing a button.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> aYoo Tools.</p>
+      <nav aria-label="Footer">
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </footer>
   </body>
 </html>
