@@ -65,6 +65,12 @@ a {
   color: var(--blue);
 }
 
+.ad-slot {
+  width: min(1120px, calc(100% - 32px));
+  min-height: 90px;
+  margin: 0 auto 24px;
+}
+
 .hero {
   width: min(1120px, calc(100% - 32px));
   min-height: 520px;

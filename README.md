@@ -2,7 +2,7 @@
 
 Simple free tools for writing, coding, SEO, and everyday web tasks.
 
-This is a static website deployed with Cloudflare Pages.
+This is a template-generated static website deployed with Cloudflare Pages.
 
 ## Pages included
 
@@ -22,7 +22,14 @@ This is a static website deployed with Cloudflare Pages.
 
 ## Deployment
 
-Cloudflare Pages can deploy this repository as a static site with no build command.
+Cloudflare Pages can build the generated static pages with Node.js and no package dependencies.
 
-- Build command: leave empty
+- Build command: `npm run build`
 - Output directory: `/`
+
+## Editing
+
+- Shared layout, navigation, footer, SEO shell, and AdSense placement live in `templates/build.mjs`.
+- Page metadata lives in `site/pages.json`.
+- Page body HTML lives in `site/content/`.
+- Run `npm run build` after editing templates or content.

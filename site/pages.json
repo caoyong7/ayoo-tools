@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/",
+    "title": "aYoo Tools - Free writing, coding, and SEO tools",
+    "description": "Simple free tools for writing, coding, SEO, and everyday web tasks. Count words, format JSON, create slugs, generate passwords, and more.",
+    "content": "home.html"
+  },
+  {
+    "path": "/tools/",
+    "title": "Free online tools - aYoo Tools",
+    "description": "Browse free online tools for writing, SEO, coding, and everyday web tasks.",
+    "content": "tools.html"
+  },
+  {
+    "path": "/guides/",
+    "title": "Guides - aYoo Tools",
+    "description": "Short practical guides for writing, SEO, web tools, and everyday digital tasks.",
+    "content": "guides.html"
+  },
+  {
+    "path": "/guides/how-many-words-is-500-characters/",
+    "title": "How many words is 500 characters? - aYoo Tools",
+    "description": "500 characters is usually around 70 to 100 words in English, depending on word length, punctuation, and spacing.",
+    "content": "guides-how-many-words-is-500-characters.html"
+  },
+  {
+    "path": "/guides/what-is-a-url-slug/",
+    "title": "What is a URL slug? - aYoo Tools",
+    "description": "A URL slug is the readable part of a web address that describes a specific page.",
+    "content": "guides-what-is-a-url-slug.html"
+  },
+  {
+    "path": "/tools/case-converter/",
+    "title": "Case Converter - aYoo Tools",
+    "description": "Convert text to uppercase, lowercase, title case, or sentence case.",
+    "content": "tools-case-converter.html"
+  },
+  {
+    "path": "/tools/character-counter/",
+    "title": "Character Counter - aYoo Tools",
+    "description": "Count characters with and without spaces for titles, posts, snippets, and forms.",
+    "content": "tools-character-counter.html"
+  },
+  {
+    "path": "/tools/json-formatter/",
+    "title": "JSON Formatter - aYoo Tools",
+    "description": "Format and validate JSON in your browser for easier reading and debugging.",
+    "content": "tools-json-formatter.html"
+  },
+  {
+    "path": "/tools/password-generator/",
+    "title": "Password Generator - aYoo Tools",
+    "description": "Generate strong random passwords locally in your browser.",
+    "content": "tools-password-generator.html"
+  },
+  {
+    "path": "/tools/reading-time-calculator/",
+    "title": "Reading Time Calculator - aYoo Tools",
+    "description": "Estimate reading time from pasted text using a common 225 words-per-minute pace.",
+    "content": "tools-reading-time-calculator.html"
+  },
+  {
+    "path": "/tools/slug-generator/",
+    "title": "Slug Generator - aYoo Tools",
+    "description": "Create clean URL slugs from titles, page names, and article ideas.",
+    "content": "tools-slug-generator.html"
+  },
+  {
+    "path": "/tools/word-counter/",
+    "title": "Word Counter - aYoo Tools",
+    "description": "Count words, characters, sentences, and estimated reading time with a free online word counter.",
+    "content": "tools-word-counter.html"
+  },
+  {
+    "path": "/about/",
+    "title": "About - aYoo Tools",
+    "description": "About aYoo Tools, a simple collection of free browser-based tools for writing, coding, SEO, and everyday web tasks.",
+    "content": "about.html"
+  },
+  {
+    "path": "/contact/",
+    "title": "Contact - aYoo Tools",
+    "description": "Contact aYoo Tools for feedback, corrections, and tool suggestions.",
+    "content": "contact.html"
+  },
+  {
+    "path": "/privacy/",
+    "title": "Privacy Policy - aYoo Tools",
+    "description": "Privacy Policy for aYoo Tools.",
+    "content": "privacy.html"
+  }
+]
