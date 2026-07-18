@@ -405,6 +405,61 @@ textarea {
   overflow-wrap: anywhere;
 }
 
+.tool-copy h2 {
+  margin-top: 34px;
+}
+
+.tool-copy h2:first-child {
+  margin-top: 0;
+}
+
+.tool-copy ol,
+.tool-copy ul {
+  padding-left: 22px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.tool-copy a {
+  color: var(--blue);
+  font-weight: 750;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.example-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.example-grid div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--soft);
+  padding: 16px;
+}
+
+.example-grid p {
+  margin-bottom: 0;
+}
+
+details {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+}
+
+details:last-of-type {
+  border-bottom: 1px solid var(--line);
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 800;
+}
+
 .notice {
   color: var(--muted);
   font-size: 0.92rem;
@@ -517,6 +572,10 @@ textarea {
 
   .card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .example-grid {
+    grid-template-columns: 1fr;
   }
 }
 

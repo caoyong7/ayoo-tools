@@ -24,12 +24,39 @@
     </header>
 
 <main class="page-shell">
-      <section class="page-hero"><p class="eyebrow">Code tool</p><h1>JSON Formatter</h1><p>Paste JSON to format it with indentation or catch syntax errors.</p></section>
+      <section class="page-hero">
+        <p class="eyebrow">Code tool</p>
+        <h1>JSON Formatter</h1>
+        <p>Paste JSON to format it with indentation or catch syntax errors.</p>
+      </section>
       <section class="tool-layout">
         <div class="tool-panel"><textarea data-json-input>{"name":"aYoo Tools","type":"static site","free":true}</textarea><div class="inline-controls"><button class="button primary" data-json-format>Format JSON</button></div></div>
         <aside class="tool-panel"><h3>Result</h3><pre class="result-box" data-json-output></pre></aside>
       </section>
-      <section class="content-panel"><h2>Why format JSON</h2><p>Formatted JSON is easier to scan, compare, and debug. This formatter parses the input in your browser and shows a readable version with two-space indentation.</p></section>
+      <section class="content-panel tool-copy">
+        <h2>Why format JSON</h2>
+        <p>Formatted JSON is easier to scan, compare, and debug. This formatter parses the input in your browser and shows a readable version with two-space indentation. If the JSON is invalid, it shows the parser error so you know where to start looking.</p>
+        <h2>How to use it</h2>
+        <ol>
+          <li>Paste a JSON object, array, or response body into the text box.</li>
+          <li>Click Format JSON.</li>
+          <li>Read the formatted output or fix the error message.</li>
+          <li>Copy the cleaned JSON into your editor, API client, or documentation.</li>
+        </ol>
+        <h2>Common JSON errors</h2>
+        <ul>
+          <li>Single quotes instead of double quotes.</li>
+          <li>Trailing commas after the last item.</li>
+          <li>Missing commas between properties.</li>
+          <li>Unquoted keys such as <code>{name: "Ayo"}</code>.</li>
+          <li>Mismatched braces or brackets.</li>
+        </ul>
+        <h2>FAQ</h2>
+        <details><summary>Does formatting JSON change the data?</summary><p>No. Formatting adds line breaks and indentation. The values stay the same when the input is valid JSON.</p></details>
+        <details><summary>Can this format API responses?</summary><p>Yes. Paste the JSON response body and format it to inspect fields, nested objects, and arrays more easily.</p></details>
+        <details><summary>Why does valid JavaScript fail here?</summary><p>JSON is stricter than JavaScript object syntax. Keys and string values need double quotes, and trailing commas are not allowed.</p></details>
+        <p>Related guides: <a href="/guides/how-to-format-json/">How to format JSON for easier reading</a> and <a href="/guides/json-validation-errors/">Common JSON validation errors</a>.</p>
+      </section>
     </main>
 
     <div class="ad-slot" aria-label="Advertisement">

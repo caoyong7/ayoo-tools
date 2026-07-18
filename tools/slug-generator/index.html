@@ -24,12 +24,37 @@
     </header>
 
 <main class="page-shell">
-      <section class="page-hero"><p class="eyebrow">SEO tool</p><h1>Slug Generator</h1><p>Turn a page title into a short, readable, lowercase URL slug.</p></section>
+      <section class="page-hero">
+        <p class="eyebrow">SEO tool</p>
+        <h1>Slug Generator</h1>
+        <p>Turn a page title into a short, readable, lowercase URL slug.</p>
+      </section>
       <section class="tool-layout">
         <div class="tool-panel"><input data-slug-input value="How to Make a Simple Useful Web Tool" aria-label="Title to convert into a slug"></div>
         <aside class="tool-panel"><h3>Slug</h3><div class="result-box" data-slug-output></div></aside>
       </section>
-      <section class="content-panel"><h2>What makes a good URL slug</h2><p>A practical slug is short, readable, lowercase, and separated by hyphens. It should describe the page clearly without stuffing in extra words.</p></section>
+      <section class="content-panel tool-copy">
+        <h2>What makes a good URL slug</h2>
+        <p>A practical slug is short, readable, lowercase, and separated by hyphens. It should describe the page clearly without stuffing in extra words. Good slugs help visitors understand a link before they open it.</p>
+        <h2>How this generator works</h2>
+        <ol>
+          <li>It lowercases the title.</li>
+          <li>It removes accents and unsupported symbols.</li>
+          <li>It replaces groups of non-letter characters with hyphens.</li>
+          <li>It removes extra hyphens from the beginning and end.</li>
+        </ol>
+        <h2>Examples</h2>
+        <div class="example-grid">
+          <div><h3>Article title</h3><p><code>How to Format JSON</code><br><code>how-to-format-json</code></p></div>
+          <div><h3>Tool page</h3><p><code>Free Word Counter</code><br><code>free-word-counter</code></p></div>
+          <div><h3>Guide page</h3><p><code>Title Case vs Sentence Case</code><br><code>title-case-vs-sentence-case</code></p></div>
+        </div>
+        <h2>FAQ</h2>
+        <details><summary>Should a slug include every word from the title?</summary><p>No. Keep the important words and remove filler when the result is too long.</p></details>
+        <details><summary>Are hyphens better than underscores?</summary><p>Hyphens are the common choice for readable web URLs because they separate words clearly.</p></details>
+        <details><summary>Can I change a slug later?</summary><p>You can, but published URLs should be changed carefully. Set up a redirect from the old URL so visitors and search engines do not hit a broken page.</p></details>
+        <p>Related guides: <a href="/guides/what-is-a-url-slug/">What is a URL slug?</a> and <a href="/guides/how-to-write-clean-url-slugs/">How to write clean URL slugs</a>.</p>
+      </section>
     </main>
 
     <div class="ad-slot" aria-label="Advertisement">
