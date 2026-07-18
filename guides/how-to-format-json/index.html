@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to format JSON for easier reading - aYoo Tools</title>
+    <meta name="description" content="A beginner-friendly explanation of JSON formatting, indentation, nested objects, arrays, and validation.">
+    <link rel="canonical" href="https://ayoo.com/guides/how-to-format-json/">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="aYoo Tools home">
+        <img src="/assets/ayoo-mark.svg" alt="" width="36" height="36">
+        <span>aYoo Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/tools/">Tools</a>
+        <a href="/guides/">Guides</a>
+        <a href="/about/">About</a>
+      </nav>
+    </header>
+
+<main class="page-shell article-page">
+      <article class="article-content">
+        <p class="eyebrow">Guide</p>
+        <h1>How to format JSON for easier reading</h1>
+        <p class="article-summary">Formatted JSON is easier to inspect, debug, copy, and explain than one long compressed line.</p>
+        <p>JSON is a common data format used by APIs, apps, configuration files, and web tools. It stores values as objects, arrays, strings, numbers, booleans, and null. Machines can read compact JSON easily, but people usually need indentation.</p>
+<p>Formatting JSON means adding line breaks and spaces so the structure becomes visible. It does not change the data. It only makes the same data easier to read.</p>
+<h2>What formatting shows</h2>
+<ul><li>Objects wrapped in curly braces.</li><li>Arrays wrapped in square brackets.</li><li>Key and value pairs.</li><li>Nested data levels.</li><li>Missing commas or brackets when validation fails.</li></ul>
+<p>Paste your data into the <a href="/tools/json-formatter/">JSON Formatter</a>. If the JSON is valid, the tool will display a readable version. If there is an error, check the area around the reported position.</p>
+<h2>Common JSON shape</h2>
+<pre><code>{
+  "name": "aYoo Tools",
+  "type": "website",
+  "features": ["word counter", "json formatter"]
+}</code></pre>
+<p>This structure is easy to scan because every nested level is indented. The array values are also visible on one line because they are short.</p>
+<h2>When to minify instead</h2>
+<p>Formatting helps humans. Minifying helps reduce file size by removing extra spaces and line breaks. Use formatted JSON while editing or debugging. Use minified JSON only when a system needs the smallest possible text.</p>
+<p>If you are sending JSON to another person, formatted is usually kinder. If you are sending JSON to a server, either format can work as long as the data is valid.</p>
+      </article>
+    </main>
+
+    <div class="ad-slot" aria-label="Advertisement">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2589137463971131"
+           crossorigin="anonymous"></script>
+      <!-- 2026ForAyoo -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2589137463971131"
+           data-ad-slot="1398901631"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> aYoo Tools.</p>
+      <nav aria-label="Footer">
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>

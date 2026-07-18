@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Common JSON validation errors and how to fix them - aYoo Tools</title>
+    <meta name="description" content="Learn the most common JSON errors, including missing commas, unquoted keys, trailing commas, and broken brackets.">
+    <link rel="canonical" href="https://ayoo.com/guides/json-validation-errors/">
+    <link rel="stylesheet" href="/styles.css">
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="aYoo Tools home">
+        <img src="/assets/ayoo-mark.svg" alt="" width="36" height="36">
+        <span>aYoo Tools</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/tools/">Tools</a>
+        <a href="/guides/">Guides</a>
+        <a href="/about/">About</a>
+      </nav>
+    </header>
+
+<main class="page-shell article-page">
+      <article class="article-content">
+        <p class="eyebrow">Guide</p>
+        <h1>Common JSON validation errors and how to fix them</h1>
+        <p class="article-summary">Most JSON errors come from small punctuation mistakes. Learn what to check first.</p>
+        <p>JSON is strict. A missing comma, a single quote, or an extra trailing comma can make the whole document invalid. The good news is that most errors are easy to fix once you know what to look for.</p>
+<p>Use the <a href="/tools/json-formatter/">JSON Formatter</a> to validate the text first. If it fails, read the error and inspect the nearby characters. The reported position may be slightly after the real mistake because the parser only notices the problem when the structure no longer makes sense.</p>
+<h2>Common problems</h2>
+<ul><li>Using single quotes instead of double quotes.</li><li>Forgetting a comma between properties.</li><li>Adding a trailing comma after the last item.</li><li>Leaving a key unquoted.</li><li>Mismatching square brackets and curly braces.</li></ul>
+<h2>Invalid and valid example</h2>
+<pre><code>{
+  name: 'Ayo',
+  "active": true,
+}</code></pre>
+<p>This is invalid because the key <code>name</code> is not quoted, the string uses single quotes, and there is a trailing comma.</p>
+<pre><code>{
+  "name": "Ayo",
+  "active": true
+}</code></pre>
+<p>This version is valid JSON.</p>
+<h2>Debugging habit</h2>
+<p>When JSON breaks, shrink the problem. Validate a smaller section, then add pieces back. This is faster than staring at a large file. Formatting also helps because nested objects and arrays become easier to match visually.</p>
+<p>After fixing the error, copy the formatted result into your app, API client, or documentation.</p>
+      </article>
+    </main>
+
+    <div class="ad-slot" aria-label="Advertisement">
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2589137463971131"
+           crossorigin="anonymous"></script>
+      <!-- 2026ForAyoo -->
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-2589137463971131"
+           data-ad-slot="1398901631"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> aYoo Tools.</p>
+      <nav aria-label="Footer">
+        <a href="/privacy/">Privacy</a>
+        <a href="/contact/">Contact</a>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -30,6 +30,84 @@
     "content": "guides-what-is-a-url-slug.html"
   },
   {
+    "path": "/guides/how-to-count-words-online/",
+    "title": "How to count words online - aYoo Tools",
+    "description": "Learn how online word counters work, when to use them, and how to interpret words, characters, sentences, and reading time.",
+    "content": "guides-how-to-count-words-online.html"
+  },
+  {
+    "path": "/guides/word-count-for-seo/",
+    "title": "Word count for SEO: how long should a page be? - aYoo Tools",
+    "description": "A simple guide to SEO word count, search intent, thin content, and how to decide whether a page needs more detail.",
+    "content": "guides-word-count-for-seo.html"
+  },
+  {
+    "path": "/guides/character-limits-for-social-posts/",
+    "title": "Character limits for social posts and profiles - aYoo Tools",
+    "description": "Learn why character limits matter for social posts, bios, headlines, and snippets, plus how to edit text to fit.",
+    "content": "guides-character-limits-for-social-posts.html"
+  },
+  {
+    "path": "/guides/title-case-vs-sentence-case/",
+    "title": "Title case vs sentence case: which should you use? - aYoo Tools",
+    "description": "Understand the difference between title case and sentence case for headings, buttons, emails, and web copy.",
+    "content": "guides-title-case-vs-sentence-case.html"
+  },
+  {
+    "path": "/guides/how-to-write-clean-url-slugs/",
+    "title": "How to write clean URL slugs - aYoo Tools",
+    "description": "Learn how to create short, readable URL slugs for articles, tools, products, and landing pages.",
+    "content": "guides-how-to-write-clean-url-slugs.html"
+  },
+  {
+    "path": "/guides/how-to-format-json/",
+    "title": "How to format JSON for easier reading - aYoo Tools",
+    "description": "A beginner-friendly explanation of JSON formatting, indentation, nested objects, arrays, and validation.",
+    "content": "guides-how-to-format-json.html"
+  },
+  {
+    "path": "/guides/json-validation-errors/",
+    "title": "Common JSON validation errors and how to fix them - aYoo Tools",
+    "description": "Learn the most common JSON errors, including missing commas, unquoted keys, trailing commas, and broken brackets.",
+    "content": "guides-json-validation-errors.html"
+  },
+  {
+    "path": "/guides/how-long-should-a-password-be/",
+    "title": "How long should a password be? - aYoo Tools",
+    "description": "A practical guide to password length, randomness, passphrases, and why longer passwords are usually stronger.",
+    "content": "guides-how-long-should-a-password-be.html"
+  },
+  {
+    "path": "/guides/password-generator-best-practices/",
+    "title": "Password generator best practices - aYoo Tools",
+    "description": "Learn how to use a password generator safely, choose useful options, and store generated passwords.",
+    "content": "guides-password-generator-best-practices.html"
+  },
+  {
+    "path": "/guides/how-to-estimate-reading-time/",
+    "title": "How to estimate reading time - aYoo Tools",
+    "description": "Learn how reading time is calculated and when to show estimated reading time on articles, guides, and newsletters.",
+    "content": "guides-how-to-estimate-reading-time.html"
+  },
+  {
+    "path": "/guides/meta-description-length/",
+    "title": "Meta description length: how many characters should you write? - aYoo Tools",
+    "description": "A practical guide to writing meta descriptions that are clear, useful, and short enough for search previews.",
+    "content": "guides-meta-description-length.html"
+  },
+  {
+    "path": "/guides/online-tools-privacy/",
+    "title": "Are online text tools private? What to check - aYoo Tools",
+    "description": "Learn what to check before pasting text into an online tool, including browser processing, sensitive data, and privacy policies.",
+    "content": "guides-online-tools-privacy.html"
+  },
+  {
+    "path": "/guides/how-to-use-case-converter/",
+    "title": "How to use a case converter without breaking names and acronyms - aYoo Tools",
+    "description": "Learn how to convert text case while preserving names, acronyms, product names, and technical terms.",
+    "content": "guides-how-to-use-case-converter.html"
+  },
+  {
     "path": "/tools/case-converter/",
     "title": "Case Converter - aYoo Tools",
     "description": "Convert text to uppercase, lowercase, title case, or sentence case.",
