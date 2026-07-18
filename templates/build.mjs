@@ -56,9 +56,9 @@ function documentFor(page, main) {
   </head>
   <body>
 ${nav}
-${adBlock}
 
 ${main}
+${adBlock}
 ${footer}
   </body>
 </html>
